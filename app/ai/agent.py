@@ -2,7 +2,7 @@ from langchain_classic.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI
 
-from app.ai.aux import read_txt
+from app.ai.misc import read_txt
 from app.config import Config
 from app.tools import search_in_internet
 from app.tools.retriever_tools import retriever_tool

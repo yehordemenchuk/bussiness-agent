@@ -3,7 +3,7 @@ from langchain_core.messages import HumanMessage, AIMessage, trim_messages
 
 from app.persist import db
 from app.persist import UserMessage, BotMessage
-from app.ai.aux import count_tokens_from_messages
+from app.ai.misc import count_tokens_from_messages
 
 class MemoryManager:
     def add(self, question: str, answer: str, session_id: int):

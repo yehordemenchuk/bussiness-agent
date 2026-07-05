@@ -3,7 +3,7 @@ from langchain_core.tracers import LangChainTracer
 
 from app.ai.MemoryManager import MemoryManager
 from app.ai.agent import executor, agent
-from app.ai.aux import setup_tracer
+from app.ai.misc import setup_tracer
 from app.logger import logger
 
 class Chain:
